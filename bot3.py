@@ -18,6 +18,7 @@ def envoi_mail():
     wb = openpyxl.load_workbook(r'C:\chemin\vers\mon\fichier\ListeEntreprises.xlsx')
     sheet = wb.active
 
+
     # Ensemble pour stocker les adresses e-mail uniques
     email_addresses = set()
 
